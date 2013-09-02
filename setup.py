@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 app_name = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
 setup(
-    name = app_name,
+    name = 'cache-tagging',
     version = '0.7.7.0',
 
     packages = find_packages(),
@@ -31,5 +31,5 @@ setup(
         'Topic :: Software Development :: Libraries :: Application Frameworks',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    url = "https://bitbucket.org/evotech/{0}".format(app_name),
+    url = "https://bitbucket.org/evotech/cache-tagging",
 )
